@@ -1,0 +1,17 @@
+# Usar as funções "is" input para descobrir qual o tipo de informação foi recebida, e printar o dado para o cliente.
+cod = input('Digite algo: ')
+print('')
+print('True = Verdadeiro         False = Falso')
+print('')
+print(f'"{cod}" contém letras?...........................................', cod.isalpha())
+print(f'"{cod}" contém somente letras maiúsculas?........................', cod.isupper())
+print(f'"{cod}" contém somente letras minúsculas?........................', cod.islower())
+print(f'"{cod}" está capitalizada?.......................................', cod.istitle())
+print(f'"{cod}" é alfanumérico?..........................................', cod.isalnum())
+print(f'"{cod}" só contém dígitos?.......................................', cod.isdigit())
+print(f'"{cod}" todos os caracteres são dígitos decimais?................', cod.isdecimal())
+print(f'"{cod}" é válido de acordo com a definição da linguagem Python?..', cod.isidentifier())
+print(f'"{cod}" possui somente números?..................................', cod.isnumeric())
+print(f'"{cod}" possui somente espaço?...................................', cod.isspace())
+
+# print('', cod.isascii())

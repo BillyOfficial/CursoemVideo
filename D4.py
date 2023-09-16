@@ -1,1 +1,0 @@
-#Usar as funções "is" input para descobrir qual o tipo de informação foi recebida, e printar o dado para o cliente
