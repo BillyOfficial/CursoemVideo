@@ -1,4 +1,5 @@
 # Usar as funções "is" input para descobrir qual o tipo de informação foi recebida, e printar o dado para o cliente.
+print('================== Desafio 4 ======================')
 cod = input('Digite algo: ')
 print('')
 print('True = Verdadeiro         False = Falso')
