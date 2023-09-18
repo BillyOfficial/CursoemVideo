@@ -5,4 +5,6 @@ print('================== Desafio 11 ======================')
 lar = float(input('Digite a largura: '))
 alt = float(input('Digite a altura: '))
 print(f'Você tem {lar*alt} metros quadrados para pintar!')
-print(f'Você gastaria {lar*alt/2} litros.')
+print(f'Você gastaria {lar*alt/2:.2f} litros.')
+
+
