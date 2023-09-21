@@ -1,11 +1,11 @@
 print('Bem vindo ao contador de litros da minha Fan 160!')
-v_litro = float(input('Digite qual é o preço do litro da gasolina hoje: R$'))
-percurso = float(input('Agora digite o percurso em KM a ser percorrido: '))
+v_litro = float(input('Por favor, informe-me sobre o valor atual do litro da gasolina: R$'))
+percurso = float(input('Por favor, informe-me a distância em quilômetros que você deseja percorrer: '))
 km_da_fan = 38
 litro = percurso / km_da_fan
 calculo = v_litro * litro
 tanque_cheio = litro / 16
-print(f'      * Você gastará {litro:.3f} litros de gasolina.')
-print(f'      * E de acordo com o preço atual, você pagara R${calculo:.2f}.')
-print(f'      * É necessário encher o tanque {tanque_cheio:.0f} vezes.')
-print('      * Para garantir uma viagem segura, eu colocaria 2 litro a mais.')
+print(f'      * O consumo de gasolina será de {litro:.3f} litros.')
+print(f'      * E com base no preço atual, você pagará R${calculo:.2f}.')
+print(f'      * Será necessário abastecer o tanque {tanque_cheio:.0f} vezes.')
+print('      * Para garantir uma viagem segura, eu adicionaria 1 litro a mais.')
