@@ -7,5 +7,5 @@ calculo = v_litro * litro
 tanque_cheio = litro / 16
 print(f'      * Você gastará {litro:.3f} litros de gasolina.')
 print(f'      * E de acordo com o preço atual, você pagara R${calculo:.2f}.')
-print(f'      * É necessário encher o tanque {tanque_cheio:.1f} vezes.')
+print(f'      * É necessário encher o tanque {tanque_cheio:.0f} vezes.')
 print('      * Para garantir uma viagem segura, eu colocaria 2 litro a mais.')
