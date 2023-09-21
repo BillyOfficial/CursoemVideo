@@ -8,3 +8,10 @@
 
 print('================== Desafio 22 ======================')
 name = str(input('Digite o seu nome completo: '))
+nspace = name.strip()
+print(nspace.upper())  # Letra maior
+print(nspace.lower())  # Letra menor
+print(len(nspace) - nspace.count(' '))  # Contar as letras - space
+print(nspace.split())  # Quantas letras no primeiro name
+
+# Arthur da Conceição Ferreira
