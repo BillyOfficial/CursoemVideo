@@ -93,7 +93,7 @@ from - Importa somente a função da biblioteca desejada
 ************************************** Manipulando Textos **************************************
 
 
-As strings no python possuem um numero para cada caractere, começando a contagem pelo 0.
+As strings no python possuem um número para cada caractere, começando a contagem pelo 0.
 
 frase = 'Eu amo python'
 'E'=0, 'u'=1, ' '=2, 'a'=3, 'm'=4, 'o'=5, ' '=6, 'p'=7, 'y'=8, 't'=9, 'h'=10, 'o'=11, 'n'=12
