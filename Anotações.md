@@ -112,42 +112,42 @@ frase[?:?:?] - Pega os caracteres das posições indicadas pulando 2
      - Exemplo: 1. frase[0:9:2] / 2. "E m y"
 
 len(?) - Mostra quantas caractere tem a frase
-     - Exemplo: len(frase) = 13
+     - Exemplo: 1. print(len(frase)) / 2. 13
 
-count(?) - Conta quantas vezes aparece a letra escolhida
-     - Exemplo: frase.count('s')
+count(?) - Conta quantas vezes aparece a palavra/letra/número escolhido.
+     - Exemplo: print(frase.count('p'))
 
-find(?) - Procura os caracteres escolhido
-     - Exemplo: frase.find('aprendendo')
+find(?) - Diz em qual caractere começa a palavra/letra/número.
+     - Exemplo: 1. print(frase.find('amo')) / 2. 3
 
 replace(?) - Troca uma palavra por outra na frase
-     - Exemplo: frase.replace('python','JavaScript')
+     - Exemplo: 1. print(frase.replace('amo','odeio')) / 2. Eu odeio python
 
 upper(?) - Colocar todas as outras letras em maiúsculo
-     - Exemplo: frase.upper()
+     - Exemplo: print(frase.upper()) / 2. EU AMO PYTHON
 
 lower(?) - Colocar todas as outras letras em minusculo
-     - Exemplo: frase.lower()
+     - Exemplo: print(frase.lower()) / 2. eu amo python
 
-capilalize(?) - Coloca todas a frase em minúsculo menos a 1 letra
-     - Exemplo: frase.capitalize()
+capilalize() - Capitaliza a frase.
+     - Exemplo: 1. print(frase.capitalize()) / 2. Eu amo python
 
-title(?) - Todas as palavras começa com letra maiúscula
+title() - Todas as palavras começam com letra maiúscula
      - Exemplo: frase.title()
 
-strip(?) - Tira o espaço do começo e do fim da frase
+strip() - Tira o espaço do começo e do fim da frase
      - Exemplo: 1. x = '    Carro     ' / 2. print(x.strip()) / 3. "Carro"
 
-lstrip(?) - Tira o espaço somente do lado esquerdo.
+lstrip() - Tira o espaço somente do lado esquerdo.
      - Exemplo: 1. x = '    Carro     ' / 2. print(x.lstrip()) / 3. "Carro     "
 
-rstrip(?) - Tira o espaço somente do lado direito.
+rstrip() - Tira o espaço somente do lado direito.
      - Exemplo: 1. x = '    Carro     ' / 2. print(x.rstrip()) / 3. "    Carro"
 
-split(?) - Vai ocorrer uma divisão entre os espaços da frase
+split() - Vai ocorrer uma divisão entre os espaços da frase
      - Exemplo: frase.split()
 
-'?'.join(?) - Adiciona o caractere antes do "".join" entre os caracteres do parênteses
+'?'.join(?) - Adiciona o caractere/palavra desejado entre os caracteres do parênteses
      - Exemplo1: 1. print('-'.join(frase)) / 2. E-u- -a-m-o- -p-y-t-h-o-n
      - Exemplo2: 1. print('.'.join('Amorzinho')) / 2. A.m.o.r.z.i.n.h.o
 
