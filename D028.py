@@ -3,4 +3,3 @@
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 print('================== Desafio 28 ======================')
-
