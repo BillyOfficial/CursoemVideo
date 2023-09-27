@@ -10,4 +10,3 @@ print(f'Possui '
       f'letras "a" na frase.')
 print(f"A primeira letra fica na {frase.find('A') + 1}ª posição.")
 print(f"E a última letra fica na {frase.rfind('A') + 1}ª posição.")
-
