@@ -90,6 +90,12 @@ from - Importa somente a função da biblioteca desejada
      - Exemplo: 1. a = 'Arthur' / 2. random.choice(a) / 3. 't'
 
 
+3. time - Biblioteca com funções referente ao tempo
+
+
+- sleep () - Define quanto tempo o programa ficará em espera
+     - Exemplo: 1. print("Olá!") / 2. time.sleep(5) / Depois de 5 segundos 3. "Olá!"
+
 ************************************** Manipulando Textos **************************************
 
 
@@ -121,16 +127,16 @@ find(?) - Diz em qual caractere começa a palavra/letra/número.
      - Exemplo: 1. print(frase.find('amo')) / 2. 3
 
 replace(?) - Troca uma palavra por outra na frase
-     - Exemplo: 1. print(frase.replace('amo','odeio')) / 2. Eu odeio python
+     - Exemplo: 1. print(frase.replace('amo','odeio')) / 2. "Eu odeio python"
 
 upper(?) - Colocar todas as outras letras em maiúsculo
-     - Exemplo: print(frase.upper()) / 2. EU AMO PYTHON
+     - Exemplo: print(frase.upper()) / 2. "EU AMO PYTHON"
 
 lower(?) - Colocar todas as outras letras em minusculo
-     - Exemplo: print(frase.lower()) / 2. eu amo python
+     - Exemplo: print(frase.lower()) / 2. "eu amo python"
 
 capilalize() - Capitaliza a frase.
-     - Exemplo: 1. print(frase.capitalize()) / 2. Eu amo python
+     - Exemplo: 1. print(frase.capitalize()) / 2. "Eu amo python"
 
 title() - Todas as palavras começam com letra maiúscula
      - Exemplo: frase.title()
