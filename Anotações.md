@@ -96,6 +96,7 @@ from - Importa somente a função da biblioteca desejada
 - sleep () - Define quanto tempo o programa ficará em espera
      - Exemplo: 1. print("Olá!") / 2. time.sleep(5) / Depois de 5 segundos 3. "Olá!"
 
+
 ************************************** Manipulando Textos **************************************
 
 
@@ -157,9 +158,6 @@ split() - Vai ocorrer uma divisão entre os espaços da frase
      - Exemplo1: 1. print('-'.join(frase)) / 2. E-u- -a-m-o- -p-y-t-h-o-n
      - Exemplo2: 1. print('.'.join('Amorzinho')) / 2. A.m.o.r.z.i.n.h.o
 
-************************************** X **************************************
-
-
 
 ************************************** X **************************************
 
@@ -170,3 +168,9 @@ split() - Vai ocorrer uma divisão entre os espaços da frase
 
 
 ************************************** X **************************************
+
+
+
+************************************** X **************************************
+
+
