@@ -8,7 +8,7 @@ speed = int(input('Digite a velocidade do carro: '))
 
 multa = (speed - 80) * 7
 
-if speed < 80:
+if speed <= 80:
     print('Tudo certo! Liberado.')
 else:
     print(f'Você foi multado. O valor da multa é de R${float(multa):.2f}')
