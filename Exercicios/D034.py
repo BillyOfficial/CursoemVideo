@@ -4,3 +4,9 @@
 # Para aqueles que são iguais ou inferiores a este valor, o reajuste deve ser de 15%.
 
 print('================== Desafio 34 ======================')
+salario = float(input('Digite o seu salário: '))
+
+if salario >= 1250:
+    print(f'O seu salário de R$ {salario:.2f} terá um reajuste de R$ {(salario/100*10)+salario:.2f}.')
+if salario < 1250:
+    print(f'O seu salário de R$ {salario:.2f} terá um reajuste de R$ {(salario/100*15)+salario:.2f}.')
