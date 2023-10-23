@@ -86,7 +86,7 @@ from - Importa somente a função da biblioteca desejada
 - randint() - Retorna um número inteiro no intervalo
      - Exemplo: 1. random.randint(0, 10) / 2. 4
 
-- choice()  - Retorna um elemento aleatório da sequência
+- choice() - Retorna um elemento aleatório da sequência
      - Exemplo: 1. a = 'Arthur' / 2. random.choice(a) / 3. 't'
 
 
@@ -160,6 +160,8 @@ split() - Vai ocorrer uma divisão entre os espaços da frase
 
 
 ************************************** X **************************************
+
+sorted
 
 
 
